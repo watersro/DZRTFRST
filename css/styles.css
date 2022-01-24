@@ -1,0 +1,73 @@
+html {
+	background-color: #000000;
+	scroll-behavior: smooth;
+}
+
+.navbar {
+	width: 100vw;
+	height: 10vh;
+	background-image: url("/images/DZRTFRST_red.jpeg");
+
+	position: fixed;
+	z-index: 998;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left: -0.3vw;
+}
+
+.nav-gradient {
+	width: 100vw;
+	height: 10vh;
+	position: fixed;
+	background: linear-gradient(to bottom, transparent 0%, black 85%);
+}
+
+.navbar-brand {
+	height: 10vh;
+}
+
+.navbar-burger {
+	height: 10vh;
+}
+
+.navbar-menu {
+	height: 100%;
+}
+
+.dtop-menu-item {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+a.dtop-menu-item:hover {
+	color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+/* .bgOne {
+	background-image: url("/images/DZRTFRST_red.jpeg");
+
+	height: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bgTwo {
+	background-image: url("/images/bgTwo.jpeg");
+	height: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bgThree {
+	background-image: url("/images/bgThree.jpeg");
+	height: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+} */ ;
