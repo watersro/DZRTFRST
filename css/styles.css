@@ -10,7 +10,7 @@ html {
 .navbar {
 	width: 100vw;
 	height: 10vh;
-	background-image: url("/images/DZRTFRST_red.jpeg");
+	background-image: url("../images/DZRTFRST_red.jpeg");
 
 	position: fixed;
 	z-index: 998;
@@ -32,6 +32,20 @@ html {
 
 .navbar-burger {
 	height: 10vh;
+	color: hsl(0, 0%, 96%);
+	z-index: 999;
+}
+
+.is-active {
+	background-color: hsl(0, 0%, 4%);
+	color: hsl(0, 0%, 96%);
+}
+
+a:hover {
+	color: hsl(0, 0%, 100%);
+	text-shadow: 1em;
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 .navbar-menu {
@@ -52,7 +66,7 @@ a.dtop-menu-item:hover {
 	background-color: #000000;
 	width: 100%;
 	height: 100vh;
-	background-image: url("/images/home.JPG");
+	background-image: url("../images/home.JPG");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -83,7 +97,7 @@ a.dtop-menu-item:hover {
 	background-color: #000000;
 	width: 100%;
 	height: 100vh;
-	background-image: url("/images/homepage.JPG");
+	background-image: url("../images/homepage.JPG");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
