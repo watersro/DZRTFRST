@@ -83,6 +83,16 @@
 				<div class="columns is-centered">
 					<div class="column has-text-centered">
 						<h2 class="title is-white">EVENTS</h2>
+						<iframe
+							src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdzrtfrst&tabs=events&width=340&height=71&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=744266263218439"
+							width="340"
+							height="71"
+							style="border: none; overflow: hidden"
+							scrolling="no"
+							frameborder="0"
+							allowfullscreen="true"
+							allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+						></iframe>
 					</div>
 				</div>
 			</div>
@@ -98,6 +108,60 @@
 						<h2 class="title is-white">CONTACT</h2>
 					</div>
 				</div>
+				<div class="columns">
+					<div class="column is-half">
+						<form action="https://formspree.io/f/mknyolpa" method="POST">
+							<div class="field">
+								<label class="label is-white" for="name">Name:</label>
+								<div class="control">
+									<input
+										class="input"
+										id="name"
+										name="user_name"
+										type="text"
+										placeholder="e.g John Smith"
+										required="required"
+									/>
+								</div>
+							</div>
+
+							<div class="field">
+								<label for="mail" class="label is-white">Email:</label>
+								<div class="control">
+									<input
+										class="input"
+										id="mail"
+										name="user_mail"
+										type="email"
+										placeholder="hello@example.com"
+										required="required"
+									/>
+								</div>
+							</div>
+
+							<div class="field">
+								<label for="music-background" class="label is-white"
+									>Message:</label
+								>
+								<div class="control">
+									<textarea
+										class="textarea"
+										id="msg"
+										name="user_message"
+										placeholder="Let's talk!"
+										required="required"
+									></textarea>
+								</div>
+							</div>
+
+							<div class="field">
+								<div class="control">
+									<button type="submit" class="button is-link">Submit</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
 			</div>
 		</section>
 		<footer class="footer">
@@ -105,7 +169,10 @@
 				<p>
 					<strong class="footer-text"
 						>Made with ♥️ by
-						<a href="https://www.romanwaters.com" class="credit-gradient"
+						<a
+							target="_blank"
+							href="https://www.romanwaters.com"
+							class="credit-gradient"
 							>Roman Waters</a
 						>
 						© 2022.
