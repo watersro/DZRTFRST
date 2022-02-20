@@ -70,7 +70,7 @@ a.dtop-menu-item:hover {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .music-background {
@@ -121,4 +121,42 @@ a.dtop-menu-item:hover {
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+	.nav-gradient {
+		width: 100vw;
+		height: 10.4vh;
+		position: fixed;
+		background: linear-gradient(to bottom, transparent 0%, black 85%);
+	}
+	.home-background {
+		background-color: #000000;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/home.JPG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.contact-background {
+		background-color: #000000;
+		width: 100%;
+		height: 100vh;
+		background-image: url("../images/homepage.JPG");
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 1200px) {
 }
