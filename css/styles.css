@@ -63,7 +63,7 @@ a.dtop-menu-item:hover {
 }
 
 .home-background {
-	background-color: #000000;
+	background-color: #06101a;
 	width: 100%;
 	height: 100vh;
 	background-image: url("../images/home.JPG");
@@ -131,14 +131,14 @@ a.dtop-menu-item:hover {
 		background: linear-gradient(to bottom, transparent 0%, black 85%);
 	}
 	.home-background {
-		background-color: #000000;
+		background-color: #06101a;
 		width: 100%;
 		height: 100vh;
 		background-image: url("../images/home.JPG");
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: contain;
 	}
 	.contact-background {
 		background-color: #000000;
